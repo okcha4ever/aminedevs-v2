@@ -89,7 +89,7 @@ export function AboutMe() {
               Hello, I'm a passionate software developer and interested in tech
               in general. I worked on a lot of projects during my time coding as
               a full-stack web developer. (I also touch grass, go to the gym,
-              and many fun activities.)
+              and many fun activities).
             </p>
             <h3 className="text-xl font-bold">Skills & Technologies</h3>
             <div className="flex max-w-screen-sm flex-row flex-wrap gap-2">
