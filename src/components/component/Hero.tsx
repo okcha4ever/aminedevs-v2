@@ -2,14 +2,15 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Lottie from "lottie-react";
-import animationData from "public/heroanimation.json";
+import heroAnimation from "public/pcanimations.json";
+import pcAnimation from "public/heropcanimation.json";
 
 export function Hero() {
   return (
     <>
       <section className="w-full pt-12 md:pt-24 lg:pt-32">
         <div className="container space-y-10 xl:space-y-16">
-          <div className="grid gap-4 px-10 md:grid-cols-2 md:gap-16">
+          <div className="grid items-center gap-4 px-10 md:grid-cols-2 md:gap-16">
             <motion.div
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -19,15 +20,21 @@ export function Hero() {
                 Amine Khiari, <br />
                 Full-Stack Developer
               </h1>
+
+              <div className="hidden w-full justify-start md:flex ">
+                <div className="w-[300px] ">
+                  <Lottie animationData={heroAnimation} />
+                </div>
+              </div>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               className="flex flex-col items-start space-y-4"
             >
-              <div className="hidden w-full justify-center md:flex ">
+              <div className="hidden w-full justify-end md:flex ">
                 <div className="w-[300px] ">
-                  <Lottie animationData={animationData} />
+                  <Lottie animationData={pcAnimation} />
                 </div>
               </div>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">

@@ -87,9 +87,13 @@ export function AboutMe() {
           <CardContent className="w-fit space-y-4">
             <p className="text-gray-700 dark:text-gray-300">
               Hello, I'm a passionate software developer and interested in tech
-              in general. I worked on a lot of projects during my time coding as
-              a full-stack web developer. (I also touch grass, go to the gym,
-              and many fun activities).
+              in general. As a full-stack developer, I have successfully taken
+              projects from 0 to 1. I lead teams effectively ensuring an
+              environment where people can do their best work and get
+              acknowledged. I mostly work with{" "}
+              <code>Typescript, Next.js and Prisma ORM</code>.<br />
+              <br /> (I also touch grass, go to the gym, and do many fun
+              activities.)
             </p>
             <h3 className="text-xl font-bold">Skills & Technologies</h3>
             <div className="flex max-w-screen-sm flex-row flex-wrap gap-2">
