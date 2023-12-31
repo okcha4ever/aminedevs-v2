@@ -53,7 +53,10 @@ const Projects = () => {
   ];
 
   return (
-    <section className="flex flex-col items-center justify-center space-y-5">
+    <section
+      className="flex flex-col items-center justify-center space-y-5"
+      id="projects"
+    >
       <h2 className="inline-flex items-center gap-2 text-2xl font-bold">
         Projects <Projector />
       </h2>

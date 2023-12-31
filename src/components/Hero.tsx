@@ -4,8 +4,15 @@ import Link from "next/link";
 import Lottie from "lottie-react";
 import heroAnimation from "public/pcanimations.json";
 import pcAnimation from "public/heropcanimation.json";
+import { Button } from "./ui/button";
+import { Github, Linkedin } from "lucide-react";
 
 export function Hero() {
+  const scrollToProjects = () => {
+    const projectsSection = document?.getElementById("projects");
+    projectsSection?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <>
       <section className="w-full pb-5 pt-12 md:pb-20 md:pt-24 lg:pt-32">
@@ -42,19 +49,40 @@ export function Hero() {
                 building scalable and optimized web applications with modern
                 tools.
               </p>
-              <div className="space-x-2">
-                <Link
-                  className="inline-flex h-9 items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
-                  href="#"
-                >
-                  View Projects
-                </Link>
-                <Link
-                  className="inline-flex h-9 items-center justify-center rounded-md border border-gray-200 bg-white px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
-                  href="#"
-                >
-                  Contact Me
-                </Link>
+              <div className="inline-flex w-full items-center justify-between pe-10">
+                <div className="space-x-2">
+                  <Button
+                    onClick={() => scrollToProjects()}
+                    className="inline-flex h-9 items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+                  >
+                    View Projects
+                  </Button>
+                  <Link
+                    className="inline-flex h-9 items-center justify-center rounded-md border border-gray-200 bg-white px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
+                    href="#"
+                  >
+                    Contact Me
+                  </Link>
+                </div>
+                <div className="space-x-2">
+                  <Link href="https://github.com/okcha4ever" target="_blank">
+                    <Button className="gap-2 text-center text-sm text-white">
+                      <Github /> Github
+                    </Button>
+                  </Link>
+
+                  <Link
+                    href="https://www.linkedin.com/in/amine-khiari-73b136237"
+                    target="_blank"
+                  >
+                    <Button
+                      variant={"ghost"}
+                      className="gap-2 border text-center text-sm"
+                    >
+                      <Linkedin /> LinkedIn
+                    </Button>
+                  </Link>
+                </div>
               </div>
             </motion.div>
           </div>
