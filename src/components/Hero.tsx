@@ -8,7 +8,7 @@ import pcAnimation from "public/heropcanimation.json";
 export function Hero() {
   return (
     <>
-      <section className="w-full pb-20 pt-12 md:pt-24 lg:pt-32">
+      <section className="w-full pb-5 pt-12 md:pb-20 md:pt-24 lg:pt-32">
         <div className="container space-y-10 xl:space-y-16">
           <div className="grid items-center gap-4 px-10 md:grid-cols-2 md:gap-16">
             <motion.div

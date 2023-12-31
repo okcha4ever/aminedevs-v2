@@ -4,7 +4,7 @@ import { Separator } from "../ui/separator";
 const StyledSeparator = () => {
   return (
     <div className="flex w-full items-center justify-center">
-      <Separator className="max-w-sm rounded-full py-0.5 " />
+      <Separator className="w-1/2 rounded-full py-0.5 " />
     </div>
   );
 };

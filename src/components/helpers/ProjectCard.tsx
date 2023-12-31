@@ -66,7 +66,7 @@ const ProjectCard = ({ project, idx }: { project: Project; idx: number }) => {
           <div className="space-x-2">
             <code>Technlogies:</code>
             {project.technologies.map((technology) => (
-              <Badge>{technology}</Badge>
+              <Badge key={technology}>{technology}</Badge>
             ))}
           </div>
           <p className="max-w-lg">{project.description}</p>
