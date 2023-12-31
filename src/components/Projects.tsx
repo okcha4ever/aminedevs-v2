@@ -45,7 +45,7 @@ const Projects = () => {
       description:
         "During the Devfest Hackathon 2023, we created an AI-powered web app with a dual purpose: to amplify the narratives of traumatized individuals by transforming provided keywords into comprehensive descriptions, titles, and images, thus generating compelling stories; and to deliver up-to-date news on Palestine. The app also features 'PalChat,' an AI chatbot ready to engage in discussions about Palestine.",
       technologies: ["Next.js", "Next-auth", "Prisma ORM", "Tailwindcss"],
-      type: "Freelance",
+      type: "Hackathon Event",
       status: "UNCOMPLETED",
       github: "https://github.com/okcha4ever/JustPal/",
       demo: "https://just-pal.vercel.app",
