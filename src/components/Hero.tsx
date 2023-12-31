@@ -13,6 +13,11 @@ export function Hero() {
     projectsSection?.scrollIntoView({ behavior: "smooth" });
   };
 
+  const scrollToContact = () => {
+    const contactSection = document.getElementById("contact");
+    contactSection?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <>
       <section className="w-full pb-5 pt-12 md:pb-20 md:pt-24 lg:pt-32">
@@ -57,12 +62,12 @@ export function Hero() {
                   >
                     View Projects
                   </Button>
-                  <Link
-                    className="inline-flex h-9 items-center justify-center rounded-md border border-gray-200 bg-white px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
-                    href="#"
+                  <Button
+                    className="inline-flex h-9 items-center justify-center rounded-md border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-black shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
+                    onClick={() => scrollToContact()}
                   >
                     Contact Me
-                  </Link>
+                  </Button>
                 </div>
                 <div className="space-x-2">
                   <Link href="https://github.com/okcha4ever" target="_blank">

@@ -5,7 +5,10 @@ import { Instagram, Linkedin, Mail } from "lucide-react";
 
 const Contact = () => {
   return (
-    <section className="flex flex-col items-center justify-center space-y-5">
+    <section
+      className="flex flex-col items-center justify-center space-y-5"
+      id="contact"
+    >
       <h2 className="text-2xl font-bold">Contact Me</h2>
       <ul className="inline-flex space-x-10">
         <li>
