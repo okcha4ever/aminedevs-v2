@@ -111,8 +111,8 @@ export function AboutMe() {
             <ul>
               <li>- Freelancing experience.</li>
               <li>
-                - Project leader at Devfest (Hackathon event) Batna 2023, GDG
-                Batna (Algeria).
+                - Full-stack/Project leader at Devfest (Hackathon event) 2023,
+                GDG Batna (Algeria).
               </li>
               <li>
                 - Team leader at Code for Qods hackathon. Won at 4th place
