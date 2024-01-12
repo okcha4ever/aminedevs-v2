@@ -10,7 +10,7 @@ const Contact = () => {
       id="contact"
     >
       <h2 className="text-2xl font-bold">Contact Me</h2>
-      <ul className="inline-flex space-x-10">
+      <ul className="flex flex-col space-x-10 sm:flex-row">
         <li>
           <Link href="mailto:aminekhiari72@gmail.com">
             <Button variant={"link"} className="gap-2">

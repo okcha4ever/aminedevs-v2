@@ -1,11 +1,9 @@
 "use client";
 import { motion } from "framer-motion";
-import Link from "next/link";
 import Lottie from "lottie-react";
-import heroAnimation from "public/pcanimations.json";
 import pcAnimation from "public/heropcanimation.json";
+import heroAnimation from "public/pcanimations.json";
 import { Button } from "./ui/button";
-import { Github, Linkedin } from "lucide-react";
 
 export function Hero() {
   const scrollToProjects = () => {
@@ -54,7 +52,7 @@ export function Hero() {
                 building scalable and optimized web applications with modern
                 tools.
               </p>
-              <div className="inline-flex w-full items-center justify-between pe-10">
+              <div className="flex w-full flex-row items-center justify-between">
                 <div className="space-x-2">
                   <Button
                     onClick={() => scrollToProjects()}
@@ -68,25 +66,6 @@ export function Hero() {
                   >
                     Contact Me
                   </Button>
-                </div>
-                <div className="space-x-2">
-                  <Link href="https://github.com/okcha4ever" target="_blank">
-                    <Button className="gap-2 text-center text-sm text-white">
-                      <Github /> Github
-                    </Button>
-                  </Link>
-
-                  <Link
-                    href="https://www.linkedin.com/in/amine-khiari-73b136237"
-                    target="_blank"
-                  >
-                    <Button
-                      variant={"ghost"}
-                      className="gap-2 border text-center text-sm"
-                    >
-                      <Linkedin /> LinkedIn
-                    </Button>
-                  </Link>
                 </div>
               </div>
             </motion.div>

@@ -1,4 +1,5 @@
 import "@/styles/globals.css";
+import { Analytics } from "@vercel/analytics/react";
 
 import { Inter } from "next/font/google";
 
@@ -20,7 +21,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`font-sans ${inter.variable}`}>{children}</body>
+      <body className={`font-sans ${inter.variable}`}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
