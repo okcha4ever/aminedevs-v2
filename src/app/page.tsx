@@ -6,14 +6,16 @@ import StyledSeparator from "@/components/helpers/StyledSeparator";
 
 const HomePage = () => {
   return (
-    <main className="space-y-5 pb-10">
-      <Hero />
-      <StyledSeparator />
-      <AboutMe />
-      <StyledSeparator />
-      <Projects />
-      <StyledSeparator />
-      <Contact />
+    <main className="flex items-center justify-center pb-10">
+      <div className="w-[100rem] space-y-5 ">
+        <Hero />
+        <StyledSeparator />
+        <AboutMe />
+        <StyledSeparator />
+        <Projects />
+        <StyledSeparator />
+        <Contact />
+      </div>
     </main>
   );
 };
