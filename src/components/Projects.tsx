@@ -28,10 +28,10 @@ const Projects = () => {
     // },
 
     {
-      image: "/k-edc.json",
+      image: "/k-edc.jpg",
       name: "K-EDC",
       description:
-        "I created a website for a tutor who supports high school students with cheat sheets and more. The site lets you access specific folders from Google Drive and manage them easily—add, delete, and update as needed. Give it a try! (Translator extension recommended)",
+        "I created a website for a tutor who supports high school students with cheat sheets and more. The site lets you access specific folders from Google Drive and manage them easily. Give it a look! (Translator extension recommended)",
       technologies: ["Next.js", "Prisma ORM", "Tailwindcss"],
       type: "Freelance",
       status: "COMPLETE",
