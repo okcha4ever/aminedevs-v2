@@ -15,41 +15,29 @@ export type Project = {
 
 const Projects = () => {
   const projectList: Project[] = [
-    // {
-    //   image: "/papetoys.png",
-    //   name: "Pape Toys",
-    //   description:
-    //     "I developed an eCommerce website catering to a local library store specializing in school supplies. The platform facilitates seamless management of product, order, and category operations, including features like adding, deleting, and updating. With a robust cart mechanism and various additional functionalities, this project provided valuable insights into the comprehensive construction of a web application. (Translator extension recommended for an enhanced experience.)",
-    //   technologies: ["Next.js", "Next-auth", "Prisma ORM", "Tailwindcss"],
-    //   type: "Freelance",
-    //   status: "COMPLETE",
-    //   github: "",
-    //   demo: "https://pape-toys.vercel.app",
-    // },
-
     {
       image: "/k-edc.jpg",
       name: "K-EDC",
       description:
-        "I created a website for a tutor who supports high school students with cheat sheets and more. The site lets you access specific folders from Google Drive and manage them easily. Give it a look! (Translator extension recommended)",
-      technologies: ["Next.js", "Prisma ORM", "Tailwindcss"],
+        "I developed a website called ’K-EDC’ using Next.js and React for a high school tutor to share resources with students, integrating the Google Drive API to provide seamless access to materials while maintaining a clean and minimalistic design for an intuitive user experience.",
+      technologies: ["Next.js", "Tailwindcss"],
       type: "Freelance",
       status: "COMPLETE",
       github: "",
       demo: "https://k-edc.vercel.app",
     },
 
-    // {
-    //   image: "/justpal.png",
-    //   name: "JustPal",
-    //   description:
-    //     "During the Devfest Hackathon 2023, we created an AI-powered web app with a dual purpose: to amplify the narratives of traumatized individuals by transforming provided keywords into comprehensive descriptions, titles, and images, thus generating compelling stories; and to deliver up-to-date news on Palestine. The app also features 'PalChat,' an AI chatbot ready to engage in discussions about Palestine.",
-    //   technologies: ["Next.js", "Next-auth", "Prisma ORM", "Tailwindcss"],
-    //   type: "Hackathon Event",
-    //   status: "UNCOMPLETED",
-    //   github: "https://github.com/okcha4ever/JustPal/",
-    //   demo: "https://just-pal.vercel.app",
-    // },
+    {
+      image: "/city-express-clone.jpg",
+      name: "City Express Clone",
+      description:
+        'I developed a clone website for the renowned Swiss delivery company "City Express Sarl" to showcase my skills and understanding of web development. You can check it out',
+      technologies: ["Next.js", "Tailwindcss"],
+      type: "Personal",
+      status: "COMPLETE",
+      github: "",
+      demo: "https://city-express-clone.vercel.app",
+    },
   ];
 
   return (
