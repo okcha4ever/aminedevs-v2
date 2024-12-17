@@ -1,4 +1,3 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import {
@@ -71,26 +70,17 @@ export function AboutMe() {
   ];
 
   return (
-    <main className="flex flex-col items-center justify-between space-y-10 p-5 md:flex-row md:items-start md:space-x-10 md:space-y-0 md:px-28">
-      <div className="w-full md:w-1/3">
-        <Avatar className="mx-auto h-48 w-48 md:mx-0">
-          <AvatarImage alt="Amine Khiari" src="/selife.jpg" />
-          <AvatarFallback>AK</AvatarFallback>
-        </Avatar>
-      </div>
-
-      <div className="w-full md:w-2/3">
+    <main className="flex items-center justify-center">
+      <div className="w-[700px]">
         <Card>
           <CardHeader>
             <h2 className="text-2xl font-bold">About Me</h2>
           </CardHeader>
           <CardContent className="w-fit space-y-4">
-            <p className="text-gray-700 dark:text-gray-300">
-              Hello, I'm a passionate software developer and interested in tech
-              in general. As a full-stack developer, I have successfully taken
-              projects from 0 to 1. I lead teams effectively ensuring an
-              environment where people can do their best work and get
-              acknowledged. I mostly work with{" "}
+            <p className="text-xl text-gray-700 dark:text-gray-300">
+              I am a software developer focused on building web applications and
+              delivering high-quality code and UI/UX. I led teams in multiple
+              projects. I'm also a very fast learner.I mostly work with{" "}
               <code>Typescript, Next.js and Prisma ORM</code>.<br />
               <br /> (I also touch grass, go to the gym, and do many fun
               activities.)

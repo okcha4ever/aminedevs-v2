@@ -38,6 +38,18 @@ const Projects = () => {
       github: "",
       demo: "https://city-express-clone.vercel.app",
     },
+
+    {
+      image: "/devfest.png",
+      name: "DevFest Website 2024 for GDG Batna",
+      description:
+        "The DevFest 2024 registration website for GDG Batna, built with React.js/Vite, Tailwind CSS, and Framer Motion, features smooth transitions and stunning animations. As team leader, I ensured the design met UI/UX expectations.",
+      technologies: ["Next.js", "Tailwindcss", "Framer Motion"],
+      type: "Club Activity",
+      status: "COMPLETE",
+      github: "",
+      demo: "https://devfest.gdg-batna.com",
+    },
   ];
 
   return (
@@ -53,8 +65,6 @@ const Projects = () => {
           <ProjectCard key={project.name} project={project} idx={idx} />
         ))}
       </div>
-
-      <p>more to be added soon...</p>
     </section>
   );
 };
