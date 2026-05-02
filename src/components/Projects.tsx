@@ -16,7 +16,7 @@ export type Project = {
 const Projects = () => {
   const projectList: Project[] = [
     {
-      image: "/k-edc.jpg",
+      image: "/k-edc-shot.png",
       name: "K-EDC",
       description:
         "I developed a website called ’K-EDC’ using Next.js and React for a high school tutor to share resources with students, integrating the Google Drive API to provide seamless access to materials while maintaining a clean and minimalistic design for an intuitive user experience.",
@@ -39,7 +39,7 @@ const Projects = () => {
     },
 
     {
-      image: "/city-express-clone.jpg",
+      image: "/city-express-shot.png",
       name: "City Express Clone",
       description:
         'I developed a clone website for the renowned Swiss delivery company "City Express Sarl" to showcase my skills and understanding of web development. You can check it out',
@@ -51,7 +51,7 @@ const Projects = () => {
     },
 
     {
-      image: "/devfest.png",
+      image: "/devfest24-shot.png",
       name: "DevFest Website 2024 for GDG Batna",
       description:
         "The DevFest 2024 registration website for GDG Batna, built with React.js/Vite, Tailwind CSS, and Framer Motion, features smooth transitions and stunning animations. As team leader, I ensured the design met UI/UX expectations.",
