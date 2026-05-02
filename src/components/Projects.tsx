@@ -34,7 +34,7 @@ const Projects = () => {
       technologies: ["Next.js", "Tailwindcss"],
       type: "Personal",
       status: "COMPLETE",
-      github: "",
+      github: "https://github.com/okcha4ever/sleep4fajr-website",
       demo: "https://sleep4fajr.vercel.app",
     },
 
